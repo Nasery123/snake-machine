@@ -5,6 +5,7 @@ import { setText } from "../Utils/Writer.js"
 
 function _drawMoney() {
     let money = appState.money
+
     let template = ''
     for (let i = 0; i < money; i++) {
         template += '💵'

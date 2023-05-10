@@ -13,10 +13,10 @@ class AppState extends EventEmitter {
 
 
   Snack = [
-    new Snack({ name: "doritos", price: 1.2, number: 1 }),
-    new Snack({ name: 'chips', price: 2.3, number: 2 }),
-    new Snack({ name: 'tokis', price: 2.5, number: 3 }),
-    new Snack({ name: 'lays', price: 3.2, number: 4 })
+    new Snack({ name: "doritos", price: 1, number: 1 }),
+    new Snack({ name: 'chips', price: 2, number: 2 }),
+    new Snack({ name: 'tokis', price: 2, number: 3 }),
+    new Snack({ name: 'lays', price: 3, number: 4 })
 
   ]
   // Snack = []

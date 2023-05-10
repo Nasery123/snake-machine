@@ -33,12 +33,17 @@
           <!-- <div class="snack text-center selectable" onclick="app.SnacksController.askSnak('${this.name}')">
           <h1 title = "${this.name}">${this.price}</h1>
           </div> -->
-          <section class="row p-4">
-            <button class="col-4 btn btn-success" onclick="app.moneyController.addMoney()">Add Money</button>
-            <div class="col-4">
-              <p class="fs-3" id="Money">0</p>
-              <button class="col-4 btn btn-primary" onclick="app.snacksController.buySnack()">buy</button>
+          <section class="row">
+            <div>
+              <button class="col-2 btn btn-success" onclick="app.moneyController.addMoney()">Add Money</button>
             </div>
+            <div class="col-4">
+              <div>
+                <p class="fs-3" id="Money">0</p>
+              </div>
+              <div class="">
+                <button class="col-4 btn btn-primary" onclick="app.snacksController.buySnack()">buy</button>
+              </div>
           </section>
         </div>
       </div>

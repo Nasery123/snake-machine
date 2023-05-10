@@ -9,7 +9,7 @@ export class Snack {
     get ListTemplate() {
         return `<div class="snack text-center selectable" onclick="app.snacksController.buySnack('${this.name}')">
         <h1>${this.name}</h1>
-        <h1 title = "${this.name}">${this.price}</h1>
+        <h1 title = "${this.name}">$${this.price}</h1>
    </div>`
 
 
